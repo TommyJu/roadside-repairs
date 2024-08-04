@@ -104,7 +104,7 @@ a {
 
 }
 
-#values {
+#values, #services {
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -113,7 +113,7 @@ a {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-#values h1 {
+#values h2, #services h2 {
     font-size: 2.5rem;
     margin: 20px 40px;
 }
