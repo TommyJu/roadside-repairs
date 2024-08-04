@@ -35,7 +35,7 @@ a {
 
 #hero h1 {
     color: var(--blue);
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .text-white {
@@ -52,17 +52,18 @@ a {
 
 .star-container {
     display: flex;
-
+    margin: auto;
 }
 
 .contact-btn {
     border-radius: 10px;
     background-color: var(--blue);
     color: white;
-    max-width: 100px;
+    /* max-width: 100px; */
     min-height: 40px;
     padding: 8px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .contact-btn-yellow {
@@ -75,7 +76,6 @@ a {
     min-height: 40px;
     padding: 14px 20px;
     white-space: nowrap;
-    text-align: center;
 }
 
 #hero {
@@ -90,8 +90,7 @@ a {
     gap: 20px;
     padding: 80px;
     flex: 1;
-
-
+    text-align: center;
 }
 
 #right-hero {
@@ -106,18 +105,22 @@ a {
 }
 
 #values {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 60px 20px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
 #values h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin: 20px 40px;
 }
 
 #value-cards {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
     align-items: center;
@@ -139,5 +142,11 @@ a {
     }
     #left-hero {
         padding: 24px 12px;
+    }
+}
+
+@media (min-width: 800px) {
+    :root {
+        font-size: 1.3rem;
     }
 }
