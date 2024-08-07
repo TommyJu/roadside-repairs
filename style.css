@@ -113,16 +113,15 @@ a {
 
 #value-cards {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: stretch;
     gap: 12px;
-    align-items: center;
     margin: 20px
 }
 
 .value-card {
     display: flex;
-    flex: auto;
     padding: 20px;
     gap: 8px;
     border: 1px solid gray;
