@@ -22,13 +22,6 @@ a {
     color: black;
 }
 
-/* For float */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .nav-link {
     margin: 0px 10px;
 }
@@ -59,7 +52,6 @@ a {
     border-radius: 10px;
     background-color: var(--blue);
     color: white;
-    /* max-width: 100px; */
     min-height: 40px;
     padding: 8px;
     text-align: center;
@@ -70,7 +62,6 @@ a {
     border-radius: 10px;
     background-color: var(--yellow);
     color: black;
-    /* max-width: 140px; */
     width: 50%;
     margin: auto;
     min-height: 40px;
@@ -88,9 +79,10 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 80px;
+    padding: 140px 80px;
     flex: 1;
     text-align: center;
+    min-width: 520px;
 }
 
 #right-hero {
@@ -101,6 +93,7 @@ a {
     flex: 1;
     min-width: 470px;
     min-height: 300px;
+    margin-bottom: 60px;
 
 }
 
@@ -115,7 +108,7 @@ a {
 
 #values h2, #services h2 {
     font-size: 2.5rem;
-    margin: 20px 40px;
+    margin: 0 40px;
 }
 
 #value-cards {
@@ -136,17 +129,23 @@ a {
     border-radius: 10px;
 }
 
-@media (max-width: 470px) {
-    #right-hero {
+@media (max-width: 500px) {
+    #right-hero, #left-hero {
         min-width: 300px;   
-    }
-    #left-hero {
-        padding: 24px 12px;
     }
 }
 
-@media (min-width: 800px) {
+/* 988px represents the wrapping of the hero section */
+@media (max-width: 988px) {
+    #left-hero, #values, #services {
+        padding: 40px 20px;
+    }
+    #right-hero {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 400px) {
     :root {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
 }
