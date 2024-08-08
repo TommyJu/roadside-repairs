@@ -103,16 +103,16 @@ a {
 
 #values h2, #services h2 {
     font-size: 2.5rem;
-    margin: 0 40px;
 }
 
 #value-cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: stretch;
     gap: 12px;
-    margin: 20px
+    margin: 20px auto;
+    /* 720px represents when the card text will wrap */
+    max-width: 720px;
 }
 
 .value-card {
@@ -133,6 +133,7 @@ a {
 
 .card {
     width: 60%;
+    max-width: 500px;
 }
 
 .text-overflow-ellipsis {
