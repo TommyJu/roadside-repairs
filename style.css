@@ -326,7 +326,7 @@ form span {
     text-align: center;
 }
 
-#questions > h3 {
+#questions > h3, #about-us h3 {
     font-size: 2.4rem;
     margin-bottom: 20px;
 }
@@ -360,12 +360,27 @@ form span {
     width: 30px;
 }
 
-.question-card h4 {
-    
+#about-us {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
 
-.question-card p {
-    
+#about-left {
+    width: 40%;
+}
+
+#about-right {
+    width: 40%;
+}
+
+#about-right img {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 500px) {
@@ -384,6 +399,10 @@ form span {
     }
     #right-hero {
         margin-bottom: 40px;
+    }
+    /* Make about us section vertical */
+    #about-left, #about-right {
+        width: 90%;
     }
 }
 @media (max-width: 400px) {
