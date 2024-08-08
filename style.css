@@ -183,6 +183,30 @@ a {
     padding: 10px 0;
 }
 
+#contact-us {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+}
+
+input {
+    padding: 12px 8px;
+}
+
+form span {
+    color: red;
+}
+
 @media (max-width: 500px) {
     #right-hero, #left-hero {
         min-width: 300px;   
