@@ -122,7 +122,7 @@ a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
 }
 
@@ -136,6 +136,45 @@ a {
     -webkit-line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+#hero, #values, #services {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#brands {
+    width: 100%;
+    padding: 40px 12px;
+    background-color: #171717;
+    color: white;
+    text-align: center;
+}
+
+#brands-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: 12px;
+    margin-top: 30px;
+}
+
+#brands-container > div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    width: 155px;
+    height: 40px;
+}
+
+/* The volvo SVG requires padding to maintain it's aspect ratio */
+.volvo-logo {
+    padding: 10px 0;
 }
 
 @media (max-width: 500px) {
