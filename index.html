@@ -42,6 +42,10 @@
 
   <section id="hero">
     <div id="left-hero">
+      <div class="location">
+        <img src="/assets/location-dot-solid.svg" alt="Location pin icon">
+        <h2>British Columbia, Canada</h2>
+      </div>
       <div class="star-container">
         <img src="/assets/star.svg" alt="star rating icon">
         <img src="/assets/star.svg" alt="star rating icon">
@@ -224,7 +228,6 @@
 
   <section id="brands">
     <h3>Brands We Work With</h3>
-    <!-- <div id="brands-container"> -->
       <marquee behaviour="scroll" direction="right" scrollamount="14">
         <div>
           <div><img src="/assets/peterbilt.svg" alt="peterbilt logo" class="brand" loading="lazy"></div>
@@ -239,29 +242,41 @@
           <img src="/assets/truck-solid.svg" alt="truck logo" class="truck-logo" loading="lazy">
         </div>
       </marquee>
-    <!-- </div> -->
   </section>
 
   <section id="contact-us">
     <div id="contact-us-text">
       <h3>Contact Us</h3>
       <p>We are ready 24/7 to help you with your needs.</p>
-      <p></p>
+      <div class="location">
+        <img src="/assets/location-dot-solid.svg" alt="Location pin icon">
+        <h2>British Columbia, Canada</h2>
+      </div>
     </div>
     <div id="contact-us-phone-banner">
-      <img src="assets/phone-solid.svg" alt="phone icon" loading="lazy">
-      <a href="tel:+6044459735">(604) 445-9735</a>
+      <!-- <img src="assets/phone-solid.svg" alt="phone icon" loading="lazy"> -->
+      <a href="tel:+6044459735">Call Us: (604) 445-9735</a>
+    </div>
+    <p class="or-text">OR</p>
+    <div class="send-message">
+      <img src="assets/paper-plane-regular.svg" alt="paper plane logo">
+      <p>Message Us</p>
     </div>
     <form action="https://formspree.io/f/movadndd" method="POST">
-      <label for="name">
-        Name<span>*</span>
-      </label>
-      <input type="text" name="name" placeholder="Name" required>
-
-      <label for="email">
-        Email<span>*</span>
-      </label>
-      <input type="email" name="email" placeholder="Email" required>
+      <div class="name-email-inputs">
+        <div>
+          <label for="name">
+            Name<span>*</span>
+          </label>
+          <input class="name-input" type="text" name="name" placeholder="Name" required>
+        </div>
+        <div>
+          <label for="email">
+            Email<span>*</span>
+          </label>
+          <input class="email-input" type="email" name="email" placeholder="Email" required>
+        </div>
+      </div>
 
       <label for="phone">Phone Number</label>
       <input type="tel" name="phone" placeholder="e.g (000) 000-0000">
@@ -274,7 +289,9 @@
     </form>
   </section>
 
-  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9573730.24960289!2d-126.5578556!3d54.1386854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x28d84ce4eed9279d%3A0x2e147e1204a6393b!2s24%2F7%20Roadside!5e0!3m2!1sen!2sca!4v1722556444680!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+  <!-- <section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9573730.24960289!2d-126.5578556!3d54.1386854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x28d84ce4eed9279d%3A0x2e147e1204a6393b!2s24%2F7%20Roadside!5e0!3m2!1sen!2sca!4v1723092650107!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section> -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>

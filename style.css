@@ -80,6 +80,21 @@ a {
     min-width: 520px;
 }
 
+.location {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.location > img {
+    width: 20px;
+    height: auto;
+}
+
+.location > h2 {
+    font-size: 1.5rem;
+}
+
 #right-hero {
     background-image: url("/assets/hero_truck.webp");
     background-position: center;
@@ -144,7 +159,7 @@ a {
     text-overflow: ellipsis;
 }
 
-#hero, #values, #services {
+#hero, #values, #services, #contact-us {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
@@ -205,9 +220,14 @@ marquee > div > div {
     margin: 60px 0;
 }
 
+#contact-us-text p {
+    margin-bottom: 20px
+}
+
 #contact-us h3 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: var(--blue)
 }
 
 #contact-us-phone-banner {
@@ -224,10 +244,30 @@ marquee > div > div {
 
 #contact-us-phone-banner a {
     font-size: 2rem;
+    white-space: nowrap;
 }
 
 #contact-us-phone-banner img {
     width: 40px;
+}
+
+.or-text {
+    margin: 12px 0;
+}
+
+.send-message {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.send-message > img {
+    width: 30px;
+}
+
+.send-message p {
+    font-size: 2rem;
 }
 
 form {
@@ -235,8 +275,31 @@ form {
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    max-width: 500px;
-    padding: 12px;
+    max-width: 800px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.name-email-inputs > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.name-input, .email-input {
+    min-width: 240px;
+    /* flex: 1; */
+}
+
+.name-email-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 input {
@@ -247,9 +310,17 @@ form span {
     color: red;
 }
 
+#map > iframe {
+    width: 100%;
+    max-height: 500px;
+}
+
 @media (max-width: 500px) {
     #right-hero, #left-hero {
         min-width: 300px;   
+    }
+    form {
+        padding: 20px;
     }
 }
 
