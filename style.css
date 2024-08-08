@@ -485,3 +485,9 @@ footer img {
         width: 100%;
     }
 }
+
+@media (min-width: 1600px) {
+    :root {
+        font-size: 1.4em;
+    }
+}
