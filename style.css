@@ -404,6 +404,28 @@ form span {
     width: 125px;
 }
 
+footer {
+    background-color: #171717;
+    color: white;
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer a {
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+footer img {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+}
+
 @media (max-width: 500px) {
     #right-hero, #left-hero {
         min-width: 300px;   
