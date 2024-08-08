@@ -159,8 +159,8 @@ a {
     text-overflow: ellipsis;
 }
 
-#hero, #values, #services, #contact-us {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+#hero, #values, #services, #contact-us, #about-us {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 #brands {
@@ -326,7 +326,7 @@ form span {
     text-align: center;
 }
 
-#questions > h3, #about-us h3 {
+#questions > h3, #about-us h3, #awards h3 {
     font-size: 2.4rem;
     margin-bottom: 20px;
 }
@@ -381,6 +381,27 @@ form span {
 #about-right img {
     width: 100%;
     height: auto;
+}
+
+#awards {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+
+}
+
+#badges {
+    margin: 40px 0;
+    display: flex;
+    column-gap: 80px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#badges img {
+    width: 125px;
 }
 
 @media (max-width: 500px) {
