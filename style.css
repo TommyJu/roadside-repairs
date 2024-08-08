@@ -92,7 +92,7 @@ a {
 }
 
 .location > h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #right-hero {
@@ -221,13 +221,13 @@ marquee > div > div {
 }
 
 #contact-us-text p {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color: var(--yellow)
 }
 
 #contact-us h3 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: var(--blue)
 }
 
 #contact-us-phone-banner {
@@ -235,7 +235,7 @@ marquee > div > div {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: #ffc801;
+    background-color: var(--blue);
     width: 100%;
     text-align: center;
     padding: 20px 0;
@@ -245,6 +245,7 @@ marquee > div > div {
 #contact-us-phone-banner a {
     font-size: 2rem;
     white-space: nowrap;
+    color: white;
 }
 
 #contact-us-phone-banner img {
@@ -279,6 +280,7 @@ form {
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 form label {
@@ -291,7 +293,8 @@ form label {
     flex: 1;
 }
 
-.name-input, .email-input {
+/* selects the corresponding input fields */
+[type="text"], [type="email"] {
     min-width: 240px;
     /* flex: 1; */
 }
@@ -313,6 +316,56 @@ form span {
 #map > iframe {
     width: 100%;
     max-height: 500px;
+}
+
+#questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#questions > h3 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+#question-cards {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.question-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px;
+    text-align: start;
+}
+
+.question-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.question-card img {
+    width: 30px;
+}
+
+.question-card h4 {
+    
+}
+
+.question-card p {
+    
 }
 
 @media (max-width: 500px) {
@@ -339,8 +392,25 @@ form span {
     }
 }
 
+/* Bootstrap cards for services section */
 @media (max-width: 660px) {
     .card {
         width: 80%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .question-card {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .question-card img {
+        display: none;
+    }
+
+    .question-card {
+        width: 100%;
     }
 }
