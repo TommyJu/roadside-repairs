@@ -1,120 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expert Commercial Truck Repairs</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expert Commercial Truck Repairs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">ROADSIDE REPAIRS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ROADSIDE REPAIRS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div id="left-hero">
+      <div class="star-container">
+        <img src="/assets/star.svg" alt="star rating icon">
+        <img src="/assets/star.svg" alt="star rating icon">
+        <img src="/assets/star.svg" alt="star rating icon">
+        <img src="/assets/star.svg" alt="star rating icon">
+        <img src="/assets/star.svg" alt="star rating icon">
+      </div>
+      <h1>24/7 Emergency Roadside Repairs</h1>
+      <p>High-quality repairs to maintain the longevity of your commercial trucks.</p>
+      <a class="contact-btn-yellow" href="#">Contact Us</a>
+      <p class="text-yellow">Reliable. Efficient. Customer-Focused.</p>
+    </div>
+    <div id="right-hero"></div>
+  </section>
+
+  <section id="values">
+    <h2>Your Trusted Commercial Truck Repair Experts</h2>
+    <p>We prioritize your satisfaction, providing top-notch service, timely repairs, and transparent communication every
+      step of the way.</p>
+    <div id="value-cards">
+      <div class="value-card">
+        <img src="/assets/check.svg" alt="checkmark icon">
+        <p>Customer satisfaction is our top priority in every service.</p>
+      </div>
+      <div class="value-card">
+        <img src="/assets/check.svg" alt="checkmark icon">
+        <p>Fast turnaround time for quick repairs and minimal downtime.</p>
+      </div>
+      <div class="value-card">
+        <img src="/assets/check.svg" alt="checkmark icon">
+        <p>Experienced technicians ensure quality workmanship and reliable service.</p>
+      </div>
+      <div class="value-card">
+        <img src="/assets/check.svg" alt="checkmark icon">
+        <p>Transparent pricing and honest communication throughout the repair process.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div id="services-cards">
+      <div class="card">
+        <img src="assets/emergency.webp" class="card-img-top" alt="A commercial truck at night.">
+        <div class="card-body">
+          <h3 class="card-title">Truck Emergency Repair Services</h3>
+          <p class="card-text text-overflow-ellipsis">Let us handle all your truck repair needs with our expert truck
+            emergency repair services. Our highly skilled technicians are equipped with the knowledge and experience to
+            efficiently diagnose and repair any issues with your truck. With our state-of-the-art equipment and
+            commitment to quality, we ensure that your truck is back on the road in no time. Trust us to provide
+            reliable and cost-effective solutions for all your truck's problems. Experience peace of mind knowing that
+            your commercial truck is in the hands of professionals.</p>
+        </div>
+        <div class="card-footer">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#emergencyModal">
+            Learn More
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link contact-btn" href="#">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      
-      <section id="hero">
-        <div id="left-hero">
-            <div class="star-container">
-                <img src="/assets/star.svg" alt="star rating icon">
-                <img src="/assets/star.svg" alt="star rating icon">
-                <img src="/assets/star.svg" alt="star rating icon">
-                <img src="/assets/star.svg" alt="star rating icon">
-                <img src="/assets/star.svg" alt="star rating icon">
-            </div>
-            <h1>24/7 Emergency Roadside Repairs</h1>
-            <p>High-quality repairs to maintain the longevity of your commercial trucks.</p>
-            <a class="contact-btn-yellow" href="#">Contact Us</a>
-            <p class="text-yellow">Reliable. Efficient. Customer-Focused.</p>
-        </div>
-        <div id="right-hero"></div>
-      </section>
-      
-      <section id="values">
-        <h2>Your Trusted Commercial Truck Repair Experts</h2>
-        <p>We prioritize your satisfaction, providing top-notch service, timely repairs, and transparent communication every step of the way.</p>
-        <div id="value-cards">
-          <div class="value-card">
-            <img src="/assets/check.svg" alt="checkmark icon">
-            <p>Customer satisfaction is our top priority in every service.</p>
-          </div>
-          <div class="value-card">
-            <img src="/assets/check.svg" alt="checkmark icon">
-            <p>Fast turnaround time for quick repairs and minimal downtime.</p>
-          </div>
-          <div class="value-card">
-            <img src="/assets/check.svg" alt="checkmark icon">
-            <p>Experienced technicians ensure quality workmanship and reliable service.</p>
-          </div>
-          <div class="value-card">
-            <img src="/assets/check.svg" alt="checkmark icon">
-            <p>Transparent pricing and honest communication throughout the repair process.</p>
-          </div>
-        </div>
-      </section>
 
-      <section id="services">
-        <h2>Our Services</h2>
-        <div id="services-cards">
-          <div class="card">
-            <img src="assets/emergency.webp" class="card-img-top" alt="A commercial truck at night.">
-            <div class="card-body">
-              <h3 class="card-title">Truck Emergency Repair Services</h3>
-              <p class="card-text text-overflow-ellipsis">Let us handle all your truck transmission needs with our expert truck transmission services. Our highly skilled technicians are equipped with the knowledge and experience to efficiently diagnose and repair any issues with your truck’s transmission. With our state-of-the-art equipment and commitment to quality, we ensure that your truck is back on the road in no time. Trust us to provide reliable and cost-effective solutions for all your truck transmission problems. Experience peace of mind knowing that your commercial truck is in the hands of professionals.</p>
-            </div>
-            <div class="card-footer">
-              Card footer
-            </div>
-          </div>
-          <div class="card">
-            <img src="assets/maintenance.webp" class="card-img-top" alt="A commercial truck on a highway.">
-            <div class="card-body">
-              <h3 class="card-title">Truck Maintenance Services</h3>
-              <p class="card-text text-overflow-ellipsis">Discover the ultimate solution for your commercial truck maintenance needs with our comprehensive truck maintenance services. Our expert technicians are equipped with the latest tools and knowledge to provide high-quality repairs and preventative maintenance for your fleet. From routine inspections to major repairs, we ensure that your trucks stay on the road and perform at their best. With our quick turnaround time and affordable pricing, you can rely on us to keep your business running smoothly. Experience reliable and efficient truck maintenance with our trusted services.</p>
-            </div>
-            <div class="card-footer">
-              Card footer
-            </div>
-          </div>
-          <div class="card">
-            <img src="assets/fuel.webp" class="card-img-top" alt="A man repairing the fuel system of a commercial truck.">
-            <div class="card-body">
-              <h3 class="card-title">Truck Fuel System Services</h3>
-              <p class="card-text text-overflow-ellipsis">We are experts in commercial truck repair and specialize in truck fuel system services. Our skilled technicians are equipped to diagnose and resolve any issues with your truck’s fuel system, ensuring optimal performance and efficiency. From fuel pump repairs to fuel injector cleaning, we provide comprehensive solutions to keep your truck running smoothly on the road. With our attention to detail and commitment to customer satisfaction, you can trust us to deliver top-notch fuel system services that keep your fleet operating at its best. Experience reliable and professional truck fuel system services with us.
-              </p>
-            </div>
-            <div class="card-footer">
-              Card footer
+          <!-- Modal -->
+          <div class="modal fade" id="emergencyModal" tabindex="-1" aria-labelledby="emergencyModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="emergencyModalLabel">Truck Emergency Repair Services</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Let us handle all your truck repair needs with our expert truck
+            emergency repair services. Our highly skilled technicians are equipped with the knowledge and experience to
+            efficiently diagnose and repair any issues with your truck. With our state-of-the-art equipment and
+            commitment to quality, we ensure that your truck is back on the road in no time. Trust us to provide
+            reliable and cost-effective solutions for all your truck's problems. Experience peace of mind knowing that
+            your commercial truck is in the hands of professionals.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="card">
+        <img src="assets/maintenance.webp" class="card-img-top" alt="A commercial truck on a highway.">
+        <div class="card-body">
+          <h3 class="card-title">Truck Maintenance Services</h3>
+          <p class="card-text text-overflow-ellipsis">Discover the ultimate solution for your commercial truck
+            maintenance needs with our comprehensive truck maintenance services. Our expert technicians are equipped
+            with the latest tools and knowledge to provide high-quality repairs and preventative maintenance for your
+            fleet. From routine inspections to major repairs, we ensure that your trucks stay on the road and perform at
+            their best. With our quick turnaround time and affordable pricing, you can rely on us to keep your business
+            running smoothly. Experience reliable and efficient truck maintenance with our trusted services.</p>
+        </div>
+        <div class="card-footer">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#maintenanceModal">
+            Learn More
+          </button>
 
-      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9573730.24960289!2d-126.5578556!3d54.1386854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x28d84ce4eed9279d%3A0x2e147e1204a6393b!2s24%2F7%20Roadside!5e0!3m2!1sen!2sca!4v1722556444680!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+          <!-- Modal -->
+          <div class="modal fade" id="maintenanceModal" tabindex="-1" aria-labelledby="maintenanceModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="maintenanceModalLabel">Truck Maintenance Services</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Discover the ultimate solution for your commercial truck
+            maintenance needs with our comprehensive truck maintenance services. Our expert technicians are equipped
+            with the latest tools and knowledge to provide high-quality repairs and preventative maintenance for your
+            fleet. From routine inspections to major repairs, we ensure that your trucks stay on the road and perform at
+            their best. With our quick turnaround time and affordable pricing, you can rely on us to keep your business
+            running smoothly. Experience reliable and efficient truck maintenance with our trusted services.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/fuel.webp" class="card-img-top" alt="A man repairing the fuel system of a commercial truck.">
+        <div class="card-body">
+          <h3 class="card-title">Truck Fuel System Services</h3>
+          <p class="card-text text-overflow-ellipsis">We are experts in commercial truck repair and specialize in truck
+            fuel system services. Our skilled technicians are equipped to diagnose and resolve any issues with your
+            truck’s fuel system, ensuring optimal performance and efficiency. From fuel pump repairs to fuel injector
+            cleaning, we provide comprehensive solutions to keep your truck running smoothly on the road. With our
+            attention to detail and commitment to customer satisfaction, you can trust us to deliver top-notch fuel
+            system services that keep your fleet operating at its best. Experience reliable and professional truck fuel
+            system services with us.
+          </p>
+        </div>
+        <div class="card-footer">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#fuelModal">
+            Learn More
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="fuelModal" tabindex="-1" aria-labelledby="fuelModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="fuelModalLabel">Truck Fuel System Services</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  We are experts in commercial truck repair and specialize in truck
+            fuel system services. Our skilled technicians are equipped to diagnose and resolve any issues with your
+            truck’s fuel system, ensuring optimal performance and efficiency. From fuel pump repairs to fuel injector
+            cleaning, we provide comprehensive solutions to keep your truck running smoothly on the road. With our
+            attention to detail and commitment to customer satisfaction, you can trust us to deliver top-notch fuel
+            system services that keep your fleet operating at its best. Experience reliable and professional truck fuel
+            system services with us.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9573730.24960289!2d-126.5578556!3d54.1386854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x28d84ce4eed9279d%3A0x2e147e1204a6393b!2s24%2F7%20Roadside!5e0!3m2!1sen!2sca!4v1722556444680!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

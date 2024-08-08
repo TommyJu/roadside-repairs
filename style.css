@@ -48,16 +48,6 @@ a {
     margin: auto;
 }
 
-.contact-btn {
-    border-radius: 10px;
-    background-color: var(--blue);
-    color: white;
-    min-height: 40px;
-    padding: 8px;
-    text-align: center;
-    white-space: nowrap;
-}
-
 .contact-btn-yellow {
     border-radius: 10px;
     background-color: var(--yellow);
