@@ -22,6 +22,15 @@ a {
     color: black;
 }
 
+nav span {
+    display: flex;
+    gap: 8px;
+}
+
+nav img {
+    width: 20px;
+}
+
 .navbar-nav {
     margin-left: auto;
     text-align: center;
