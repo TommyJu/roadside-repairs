@@ -105,7 +105,7 @@ nav img {
 }
 
 #right-hero {
-    background-image: url("/assets/hero_truck.webp");
+    background-image: url("assets/hero-truck.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
